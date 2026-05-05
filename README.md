@@ -583,29 +583,13 @@ Foi adicionada uma trilha inicial em [`docs/canteen-express-integration-plan.md`
 
 ---
 
-## 📌 Próximos passos recomendados
+## 📌 Próximos passos
 
 1. integrar Mercado Pago real com checkout e webhook assinado;
 2. criar suíte de testes automatizados da API;
 3. ampliar cobertura de regras de negócio e casos de borda;
 4. detalhar contratos de integração com o frontend;
 5. evoluir os scripts SQL para migrações granulares conforme o projeto crescer.
-
----
-
-## ✅ Checklist desta atividade
-
-- [x] O README contém introdução clara e não técnica do projeto
-- [x] A seção de BD usa linguagem didática, exemplos e analogias
-- [x] O DER está legível e referenciado no próprio README
-- [x] O guia de implantação é reproduzível do zero em máquina limpa
-- [x] Os scripts de BD estão versionados e com ordem de execução definida
-- [x] Há validação pós-implantação
-- [x] Há procedimento de rollback
-- [x] A formatação Markdown está consistente
-- [x] A arquitetura do sistema foi documentada
-- [x] A arquitetura possui representação visual
-- [x] Os links internos do README estão organizados
 
 ---
 
@@ -681,7 +665,7 @@ Para um cenário inicial com backend, frontend e banco em uma mesma infraestrutu
 - **Sistema operacional:** Linux 64 bits;
 - **Rede:** conectividade estável com baixa latência interna entre API e banco.
 
-### 5) Segurança obrigatória (infraestrutura e aplicação)
+### 5) Segurança obrigatória
 
 Para garantir confidencialidade e integridade dos dados, os seguintes controles são obrigatórios:
 
@@ -754,7 +738,7 @@ psql "postgresql://cantinaon_app:senha_forte_aqui@localhost:5432/cantinaon" -f d
 
 ### Etapa 3 — Configuração das variáveis de ambiente
 
-No backend, criar arquivo `.env` (ou variável de ambiente no serviço) com valores de produção.
+No backend, criar arquivo `.env` com valores de produção.
 
 Exemplo (ajustar para o ambiente real):
 
