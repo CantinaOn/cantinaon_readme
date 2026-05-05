@@ -705,7 +705,7 @@ Para garantir confidencialidade e integridade dos dados, os seguintes controles 
 
 ## 🚀 Guia detalhado de implantação (produção)
 
-O roteiro a seguir foi estruturado para implantação completa do sistema **CantinaOn** com backend em Node.js, frontend em React e PostgreSQL.
+O roteiro a seguir foi estruturado para implantação completa do sistema com backend em Node.js, frontend em React e PostgreSQL.
 
 ### Etapa 1 — Preparação do ambiente
 
